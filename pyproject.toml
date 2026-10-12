@@ -1,7 +1,7 @@
 [project]
 name = "docpilot"
 version = "0.1.0"
-description = "A RAG system on AWS, built step by step."
+description = "A RAG system on AWS."
 requires-python = ">=3.12,<3.13"
 dependencies = [
     "boto3>=1.40",              # the AWS SDK for Python: talks to Bedrock, S3, IAM ...
