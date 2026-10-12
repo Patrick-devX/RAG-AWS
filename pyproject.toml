@@ -8,6 +8,7 @@ dependencies = [
     "pydantic-settings>=2.4",   # reads our settings from the .env file
     "aws-cdk-lib>=2.160",       # AWS infrastructure written in Python (budget in Step 13)
     "constructs>=10.3",         # building blocks that aws-cdk-lib needs
+    "pymupdf4llm>=1.28.2",
 ]
 
 [dependency-groups]

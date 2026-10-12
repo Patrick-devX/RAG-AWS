@@ -12,3 +12,5 @@ __pycache__/
 
 # Downloaded PDFs and results (big, and can be recreated)
 data/
+# Personal notes (contains tokens)
+RAG AWS Plan.txt

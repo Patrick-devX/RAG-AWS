@@ -24,6 +24,14 @@ class Settings(BaseSettings):
     embedding_dimensions: int = 1024      # DOCPILOT_EMBEDDING_DIMENSIONS
     rerank_model_id: str                  # DOCPILOT_RERANK_MODEL_ID
 
+    # Documents
+    raw_bucket: str                       # DOCPILOT_RAW_BUCKET (no default: required)
+    raw_prefix: str = ""                  # DOCPILOT_RAW_PREFIX ("" = whole bucket)
+
+    # Vector store
+    vector_bucket: str = "docpilot-vectors"   # DOCPILOT_VECTOR_BUCKET
+    vector_index: str = "chunks-v1"           # DOCPILOT_VECTOR_INDEX
+
 
 # Created once when the module is first imported; every other file reuses it
 settings = Settings()
