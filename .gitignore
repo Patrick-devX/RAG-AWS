@@ -1,0 +1,14 @@
+# Secrets: your personal settings and keys
+.env
+
+# Python virtual environment (created automatically, can be rebuilt any time)
+.venv/
+
+# Files Python and the tools generate while running
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Downloaded PDFs and results (big, and can be recreated)
+data/
